@@ -67,5 +67,5 @@ Noncommercial use only. Commercial use, including selling, paid distribution, co
 Full license text:
 
 ```text
-[https://polyformproject.org/licenses/noncommercial/1.0.0/](https://spdx.org/licenses/PolyForm-Noncommercial-1.0.0.html)
+https://spdx.org/licenses/PolyForm-Noncommercial-1.0.0.html
 ```
