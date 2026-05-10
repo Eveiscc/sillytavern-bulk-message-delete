@@ -1,0 +1,102 @@
+#bulk_message_delete_wand.bulk-message-delete-active {
+    opacity: 1;
+}
+
+body.bulk-message-delete-mode #bulk_message_delete_wand {
+    color: var(--SmartThemeQuoteColor);
+}
+
+#bulk_message_delete_bar {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 4px;
+}
+
+body.bulk-message-delete-mode #bulk_message_delete_bar {
+    display: flex;
+}
+
+#bulk_message_delete_open_review.disabled {
+    opacity: 0.5;
+}
+
+.bulk-message-delete-checkbox {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+}
+
+body.bulk-message-delete-mode #chat .mes {
+    padding-left: 34px;
+}
+
+body.bulk-message-delete-mode #chat .mes.bulk-message-delete-selected {
+    background-color: color-mix(in srgb, var(--SmartThemeQuoteColor) 35%, transparent);
+}
+
+.bulk-message-delete-review {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bulk-message-delete-review-summary {
+    font-weight: 600;
+}
+
+.bulk-message-delete-backup-notice {
+    padding: 8px;
+    border: 1px solid var(--SmartThemeQuoteColor);
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.bulk-message-delete-review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.bulk-message-delete-review-row {
+    display: grid;
+    grid-template-columns: 24px minmax(48px, max-content) minmax(120px, 1fr) minmax(160px, 2fr);
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 6px;
+}
+
+.bulk-message-delete-review-row input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+.bulk-message-delete-review-id,
+.bulk-message-delete-review-role {
+    font-weight: 600;
+}
+
+.bulk-message-delete-review-preview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+    .bulk-message-delete-review-row {
+        grid-template-columns: 24px 1fr;
+    }
+
+    .bulk-message-delete-review-preview {
+        grid-column: 2;
+    }
+}

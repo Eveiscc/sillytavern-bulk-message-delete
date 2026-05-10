@@ -1,0 +1,11 @@
+{
+    "display_name": "批量勾选删除",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "local",
+    "version": "0.1.0",
+    "description": "Batch-select chat messages before deleting them."
+}
