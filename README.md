@@ -18,7 +18,7 @@
 在 SillyTavern 中打开扩展安装界面，输入本仓库地址：
 
 ```text
-https://github.com/你的用户名/sillytavern-bulk-message-delete.git
+https://github.com/Eveiscc/sillytavern-bulk-message-delete.git
 ```
 
 也可以手动安装：将本仓库文件放入 SillyTavern 的第三方扩展目录。
